@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Dina Saunders</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -15,9 +16,83 @@
 </head>
 
 <body>
+    <!-- Bootstrap Fixed Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Dina Saunders</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-    <h1> Portfolio Content</h1>
-    
+    <!-- Portfolio Will Go Here -->
+    <main class="container">
+
+        <!-- Portfolio Header -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title">Portfolio</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="row">
+            <!-- Portfolio Picture Row 1 Column 1 -->
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <a href="https://picsum.photos/100">
+                        <img class="img-responsive" src="https://picsum.photos/100" alt="random" style="width:100%">
+                    </a>
+                </div>
+                <div class="caption">
+                    <p> Lorem ipsum...</p>
+                </div>
+            </div>
+
+            <!-- Portfolio Picture Row 1 Column 2 -->
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <a href="https://picsum.photos/100">
+                        <img class="img-responsive" src="https://picsum.photos/100" alt="random" style="width:100%">
+                    </a>
+                </div>
+                <div class="caption">
+                    <p> Lorem ipsum...</p>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+
+    </main>
+
+    <!-- Boostrap Sticky Footer -->
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Made by DS1826</span>
+        </div>
+    </footer>
+
     <!-- Bootstrap core Javascript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
