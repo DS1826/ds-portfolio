@@ -1,3 +1,25 @@
+/* General Styles */
+
+html body {
+    /* Typography */
+    font-size: 18px;
+    line-height: 27px;
+
+    /* Add Background Color Here? TBD */
+
+  }
+
+  /* Main Content */
+
+#wrapper {
+    /* Box-model */
+    width: 1024px;
+  
+    /* Positioning */
+    margin: 40px auto;
+  }
+
+/* Sticky Footer */
 .footer {
     position: fixed;
     bottom: 0;
