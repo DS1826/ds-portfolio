@@ -1,9 +1,10 @@
 /* General Styles */
 
+h1 {
+    color: navy;
+}
+
 html body {
-    /* Typography */
-    font-size: 18px;
-    line-height: 27px;
 
     /* Add Background Color Here? TBD */
 
@@ -13,7 +14,7 @@ html body {
 
 #wrapper {
     /* Box-model */
-    width: 1024px;
+    /* width: 1024px; */
   
     /* Positioning */
     margin: 40px auto;
@@ -37,3 +38,15 @@ html body {
 .text-muted {
     color: #6c757d!important;
 }
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 768px) {
+    /* The profile picture will adjust to 50% */
+    #profile {
+      width: 50%;
+    } 
+}
+
