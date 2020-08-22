@@ -4,20 +4,14 @@ h1 {
     color: navy;
 }
 
-html body {
-
-    /* Add Background Color Here? TBD */
-
-  }
-
   /* Main Content */
 
 #wrapper {
-    /* Box-model */
-    /* width: 1024px; */
-  
+   
     /* Positioning */
     margin: 40px auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
 /* Sticky Footer */
