@@ -4,6 +4,7 @@
 This responsive design project enables my Portfolio web application to render well on a variety of devices and screen sizes. 
 
 ## Screenshot
+<img width="1355" alt="Screen Shot 2020-08-22 at 4 29 18 PM" src="https://user-images.githubusercontent.com/67653440/90965283-c20ac580-e494-11ea-9458-5ba1713f48f3.png">
 
 ## Technologies
 This project was created with: 
