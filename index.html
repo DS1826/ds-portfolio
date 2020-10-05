@@ -26,14 +26,14 @@
 
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <li class="nav-item active">
+              <button id="about-me-btn" type="menu" class="btn btn-lg nav-btn">About Me<span class="sr-only">(current)</span></button>
+            </li>
+            <li class="nav-item">
+              <button id="portfolio-btn" type="menu" class="btn btn-lg nav-btn">Portfolio</button>
+            </li>
+            <li class="nav-item">
+              <button id="contact-btn" type="menu" class="btn btn-lg nav-btn">Contact</button>
           </li>
         </ul>
       </div>
@@ -42,22 +42,21 @@
 
   <!-- Cover Image -->
   <!-- Photo by <a href="/photographer/mai05-50174">Maira Kouvara</a> from <a href="https://freeimages.com/">FreeImages</a> -->
-  <main id="hero-wrapper"></main>
-    <div class="hero-image">
+    <main id="hero-img" class="hero-image hero-wrapper">
       <div class="hero-text">
         <h1 style="font-size:70px">Hello! I'm Dina Saunders</h1>
         <h2>I'm a <strong>Full Stack</strong> web developer with an emphasis on<br>front-end development.</h2>
         <button type="button" class="btn btn-secondary btn-lg">My work</button>
       </div>
-    </div>
-  </main>
+    </main>
+
   <!-- About Me Card -->
 
-  <main id="about-me wrapper" class="container invisible">
+  <main id="about-me" class="container wrapper hidden">
 
     <div class="card">
       <div class="card-header">
-        <h1 class="card-title">About Me</h1>
+        <h1 class="card-title"><b>About Me</b></h1>
       </div>
 
       <div class="card-body">
@@ -94,6 +93,102 @@
     </div>
   </main>
 
+  <!-- Portfolio -->
+
+  <main id="portfolio" class="container wrapper hidden">
+
+    <div class="card">
+        <div class="card-header">
+            <h1 class="card-title"><b>Portfolio</b></h1>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="assets/img/drop.jpg" class="card-img-top" alt="drop">
+                    <div class="card-body">
+                        <h5 class="card-title">Code Refactoring Project</h5>
+                        <p>Photo from<a href="https://www.freeimages.com/" target="_blank">FreeImages</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-md-6">
+                    <img src="assets/img/graffiti.jpg" class="card-img-top" alt="graffiti">
+                    <div class="card-body">
+                        <h5 class="card-title">Responsive Design Project</h5>
+                        <p>Photo from <a href="https://www.freeimages.com/" target="_blank">FreeImages</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="assets/img/canyon.jpg" class="card-img-top" alt="canyon">
+                    <div class="card-body">
+                        <h5 class="card-title">JavaScript Project</h5>
+                        <p>Photo from <a href="https://www.freeimages.com/" target="_blank">FreeImages</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="assets/img/scotland.jpg" class="card-img-top" alt="scotland">
+                    <div class="card-body">
+                        <h5 class="card-title">Social Media Project</h5>
+                        <p>Photo from <a href="https://www.freeimages.com/" target="_blank">FreeImages</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<!-- Contact Form -->
+
+<main id="contact" class="container wrapper hidden">
+
+  <div class="card">
+    <div class="card-header">
+      <h1 class="card-title"><b>Contact</b></h1>
+    </div>
+
+  <div class="card-body">
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="formGroupExampleInput1">First Name</label>
+          <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="First Name">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="formGroupExampleInput2">Last Name</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="First Name">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlInput3">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="name@example.com">
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+          placeholder="Type your message here."></textarea>
+      </div>
+
+      <div class="form-row">
+      <button type="button" class="btn btn-secondary btn-lg">Submit</button>
+    </div>
+    </form>
+  </div>
+</div>
+
+</main>
+
   <!-- Boostrap Sticky Footer -->
 
   <footer class="footer text-center">
@@ -114,6 +209,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/script.js"></script>
 
 </body>
 
