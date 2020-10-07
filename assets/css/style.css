@@ -82,6 +82,11 @@ p {
     color: black;
   }
 
+  /* About Me */
+
+  #pdf-ic {
+    padding-top: 10px;
+  }
 
   /* Portfolio */
 

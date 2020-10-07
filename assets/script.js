@@ -1,3 +1,4 @@
+var brandBtn = document.getElementById("brand-btn");
 var aboutMeBtn = document.getElementById("about-me-btn");
 var portBtn = document.getElementById("portfolio-btn");
 var contactBtn = document.getElementById("contact-btn");
@@ -6,6 +7,19 @@ var heroDiv = document.getElementById("hero-img");
 var aboutMeDiv = document.getElementById("about-me");
 var portDiv = document.getElementById("portfolio")
 var contactDiv = document.getElementById("contact")
+
+// NavBar click events to dynamically navigate through content
+
+brandBtn.addEventListener("click", function (){
+
+    console.log("Brand Clicked")
+    heroDiv.classList.remove("hidden");
+    aboutMeDiv.classList.add("hidden");
+    portDiv.classList.add("hidden");
+    contactDiv.classList.add("hidden");
+
+
+});
 
 aboutMeBtn.addEventListener("click", function (){
 
