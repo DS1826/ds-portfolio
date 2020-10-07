@@ -12,6 +12,8 @@ aboutMeBtn.addEventListener("click", function (){
     console.log("About Me Clicked")
     heroDiv.classList.add("hidden");
     aboutMeDiv.classList.remove("hidden");
+    portDiv.classList.add("hidden");
+    contactDiv.classList.add("hidden");
 
 
 });
