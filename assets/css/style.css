@@ -17,6 +17,10 @@ p {
   line-height: 24px;
 }
 
+.hidden {
+  display: none;
+}
+
   /* Main Content */
 
   /* Nav Bar */
@@ -35,8 +39,13 @@ p {
     font-size: 1.25em;
   }
 
+  .nav-btn {
+    color: #eee;
+    background-color: #2f2439;
+  }
+
   /* Cover Image */
-  #hero-wrapper {
+  .hero-wrapper {
    
     /* Positioning */
     /* margin: 0px auto; */
@@ -65,12 +74,30 @@ p {
     color: black;
   }
 
-#wrapper {
+.wrapper {
    
     /* Positioning */
     margin: 80px auto;
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+
+  /* Portfolio */
+
+  img {
+    overflow: hidden;
+    vertical-align: middle
+    width: 100%;
+    height: 425px;
+  }
+
+  #project-links {
+    background-color: #2f2439;
+    
+  }
+
+  i {
+    color: #eee;
   }
 
 /* Sticky Footer */
