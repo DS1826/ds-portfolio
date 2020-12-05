@@ -20,7 +20,8 @@
 
   <header>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <button id="brand-btn" type="menu" class="navbar-brand btn btn-lg nva-btn" href="#"><img id="logo" class="img-fluid" src="assets/img/dlogo.png" alt="logo"></button>
+      <button id="brand-btn" type="menu" class="navbar-brand btn btn-lg nva-btn" href="#"><img id="logo"
+          class="img-fluid" src="assets/img/dlogo.png" alt="logo"></button>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -47,9 +48,10 @@
   <!-- Photo by <a href="/photographer/mai05-50174">Maira Kouvara</a> from <a href="https://freeimages.com/">FreeImages</a> -->
   <main id="hero-img" class="hero-image hero-wrapper">
     <div class="hero-text text-left">
-      <h2 id="hero-title">Hello! I'm Dina.</h2>
+      <h3 id="hero-title">Hello! I'm Dina.</h3>
       <h3 class="text-left">I design & build web applications.</h3>
-      <button id="my-work" type="button" class="btn btn-secondary btn-lg btn-block">Find out more about what I do</button>
+      <button id="my-work" type="button" class="btn btn-secondary btn-lg btn-block">Find out more about what I
+        do</button>
     </div>
   </main>
 
@@ -58,14 +60,15 @@
   <main id="about-me" class="container wrapper hidden">
 
     <div class="card">
-      
+
       <div class="card-header bg-dark">
-        <h1 class="card-title align-bottom"><b>About Me</b><a href="https://drive.google.com/file/d/1LenrayiH50RC3baEzob91HKRhN7dG7Kf/view?usp=sharing" target="_blank"><i id="pdf-ic"class="far fa-file-pdf fa-lg float-right"></i></a></h1>
+        <h1 class="card-title align-bottom"><b>About Me</b><a
+            href="https://drive.google.com/file/d/1LenrayiH50RC3baEzob91HKRhN7dG7Kf/view?usp=sharing" target="_blank"><i
+              id="pdf-ic" class="far fa-file-pdf fa-lg float-right"></i></a></h1>
       </div>
 
       <div class="card-body">
-        <img id="profile" class="img-fluid float-left" src="assets/img/profile-picture.jpg" alt="Profile Picture"
-          style="margin-right:10px">
+        <img id="profile" class="img-fluid float-left" src="assets/img/coder.png" alt="Profile Picture">
         <p class="card-text">
           I am a web developer who loves researching, problem-solving and visually creative input and output in a
           variety of mediums.
@@ -101,103 +104,152 @@
 
   <main id="portfolio" class="container wrapper hidden">
 
-    <div class="card">
-      <div class="card-header bg-dark">
-        <h1 class="card-title"><b>Portfolio</b></h1>
+    <section class="jumbotron text-center bg-light">
+      <div class="container">
+        <h1>My Recent Work</h1>
+        <p class="lead">Here are some of my recent projects.</p>
       </div>
+    </section>
 
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card">
-            <img src="assets/img/burgerapp.png" class="card-img-top" alt="burger app">
-            <div class="card-body">
-              <h4 class="card-title">Eat da Burger</h4>
-              <p>Keep track of the burgers you want to eat and those devoured.</p>
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <!-- PORTFOLIO: ROW 1 -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img id="portfolio-img" src="assets/img/travelers.jpg" class="card-img" alt="travelers app">
+              <div class="card-img-overlay text-white d-flex">
+                <h3 class="card-title album-title align-self-center mx-auto">The Traveler's Memoir</h3>
+              </div>
+              <div class="card-body">
+                <p class="card-text">Online community for travelers. This application takes you along a beautiful MVC
+                  paradigm by way of a sturdy and comfortable server-side API.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div id="project-links">
+                    <a href="https://project-2-vasd.herokuapp.com/" target="_blank"><i
+                        class="fas fa-link fa-2x float-left"></i></a>
+                    <a href="https://github.com/DS1826/project-2.git" target="_blank"><i
+                        class="fab fa-github fa-2x float-right"></i></a>
+                  </div>
+                  <small>Tech Focus: Full Stack</small>
+                </div>
+              </div>
             </div>
-            <div id="project-links" class="card-body">
-              <a href="https://cryptic-atoll-00523.herokuapp.com/" target="_blank"><i
-                  class="fas fa-link fa-2x float-left"></a></i><a href="https://github.com/DS1826/burger.git"
-                target="_blank"><i class="fab fa-github fa-2x float-right"></i></a>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img id="portfolio-img" src="assets/img/burger.jpg" class="card-img" alt="burger app">
+              <div class="card-img-overlay text-white d-flex">
+                <h3 class="card-title album-title align-self-center mx-auto">Eat da Burger!</h3>
+              </div>
+              <div class="card-body">
+                <p class="card-text">A logger for burger lovers. The menu includes a homemade ORM with mySQL, Express
+                  and Node on top that's served to you on Handlebars.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div id="project-links">
+                    <a href="https://cryptic-atoll-00523.herokuapp.com/" target="_blank"><i
+                        class="fas fa-link fa-2x float-left"></i></a>
+                    <a href="https://github.com/DS1826/burger.git" target="_blank"><i
+                        class="fab fa-github fa-2x float-right"></i></a>
+                  </div>
+                  <small>Tech Focus: mySQL</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img id="portfolio-img" src="assets/img/food.jpg" class="card-img" alt="recipe app">
+              <div class="card-img-overlay text-white d-flex">
+                <h3 class="card-title album-title align-self-center mx-auto">What's Cooking?</h3>
+              </div>
+              <div class="card-body">
+                <p class="card-text">Recipe search and wine pairings. This application utilizes APIs to serve up recipes
+                  and wine pairings based on ingredients you have on hand.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div id="project-links">
+                    <a href="https://ds1826.github.io/Pandemic-Pastime/" target="_blank"><i
+                        class="fas fa-link fa-2x float-left"></i></a>
+                    <a href="https://github.com/DS1826/Pandemic-Pastime.git" target="_blank"><i
+                        class="fab fa-github fa-2x float-right"></i></a>
+                  </div>
+                  <small>Tech Focus: APIs</small>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="card">
-            <img src="assets/img/notetaker.png" class="card-img-top" alt="code quiz">
-            <div class="card-body">
-              <h4 class="card-title">Note Taker</h4>
-              <p>Create and save your notes in one place.</a></p>
-            </div>
-            <div id="project-links" class="card-body">
-              <a href="https://calm-garden-07244.herokuapp.com/" target="_blank"><i
-                  class="fas fa-link fa-2x float-left"></a></i><a href="https://github.com/DS1826/note-taker.git"
-                target="_blank"><i class="fab fa-github fa-2x float-right"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card">
-            <img src="assets/img/pswd-generator.png" class="card-img-top" alt="password generator">
-            <div class="card-body">
-              <h4 class="card-title">Password Generator</h4>
-              <p>Create a random password based on your user input.</p>
-            </div>
-            <div id="project-links" class="card-body">
-              <a href="https://ds1826.github.io/pswd-generator/" target="_blank"><i
-                  class="fas fa-link fa-2x float-left"></a></i><a href="https://github.com/DS1826/pswd-generator.git"
-                target="_blank"><i class="fab fa-github fa-2x float-right"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card">
-            <img src="assets/img/js-code-quiz.png" class="card-img-top" alt="code quiz">
-            <div class="card-body">
-              <h4 class="card-title">Code Quiz</h4>
-              <p>Test your JavaScript knowledge with this timed quiz.</a></p>
-            </div>
-            <div id="project-links" class="card-body">
-              <a href="https://ds1826.github.io/code-quiz/" target="_blank"><i
-                  class="fas fa-link fa-2x float-left"></a></i><a href="https://github.com/DS1826/code-quiz.git"
-                target="_blank"><i class="fab fa-github fa-2x float-right"></i></a>
+        <!-- PORTFOLIO: ROW 2 -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img id="portfolio-img" src="assets/img/notebook.jpg" class="card-img" alt="note app">
+              <div class="card-img-overlay text-white d-flex">
+                <h3 class="card-title album-title align-self-center mx-auto">Note Taker</h3>
+              </div>
+              <div class="card-body">
+                <p class="card-text">Write, save and delete notes all in one place. The back end of this application
+                  was developed using an Express server to store and retreive notes.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div id="project-links">
+                    <a href="https://calm-garden-07244.herokuapp.com//" target="_blank"><i
+                        class="fas fa-link fa-2x float-left"></i></a>
+                    <a href="https://github.com/DS1826/note-taker.git" target="_blank"><i
+                        class="fab fa-github fa-2x float-right"></i></a>
+                  </div>
+                  <small>Tech Focus: Express</small>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img id="portfolio-img" src="assets/img/storm.jpg" class="card-img" alt="weather app">
+              <div class="card-img-overlay text-white d-flex">
+                <h3 class="card-title album-title align-self-center mx-auto">Weather Dashboard</h3>
+              </div>
+              <div class="card-body">
+                <p class="card-text">Weather outlook by location search. A large gust of current weather data is
+                  served from a third party API via dynamically updated HTML and CSS.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div id="project-links">
+                    <a href="https://ds1826.github.io/weather-dashboard//" target="_blank"><i
+                        class="fas fa-link fa-2x float-left"></i></a>
+                    <a href="https://github.com/DS1826/weather-dashboard.git" target="_blank"><i
+                        class="fab fa-github fa-2x float-right"></i></a>
+                  </div>
+                  <small>Tech Focus: Server-side API</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img id="portfolio-img" src="assets/img/quiz.jpg" class="card-img" alt="quiz app">
+              <div class="card-img-overlay text-white d-flex">
+                <h3 class="card-title album-title align-self-center mx-auto">Code Quiz</h3>
+              </div>
+              <div class="card-body">
+                <p class="card-text">Test your Javascript knowledge with this code quiz. How was this quiz created?
+                  Using responsive HTML and CSS powered by Javascript</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div id="project-links">
+                    <a href="https://ds1826.github.io/code-quiz/" target="_blank"><i
+                        class="fas fa-link fa-2x float-left"></i></a>
+                    <a href="https://github.com/DS1826/code-quiz.git" target="_blank"><i
+                        class="fab fa-github fa-2x float-right"></i></a>
+                  </div>
+                  <small>Tech Focus: Web API</small>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card">
-            <img src="assets/img/weather-dash.png" class="card-img-top" alt="canyon">
-            <div class="card-body">
-              <h4 class="card-title">Weather Dashboard</h4>
-              <p>Find the weather outlook for your travel destinations.</p>
-            </div>
-            <div id="project-links" class="card-body">
-              <a href="https://ds1826.github.io/weather-dashboard/" target="_blank"><i
-                  class="fas fa-link fa-2x float-left"></a></i><a href="https://github.com/DS1826/weather-dashboard.git"
-                target="_blank"><i class="fab fa-github fa-2x float-right"></i></a>
-            </div>
-          </div>
         </div>
-        <div class="col-md-6">
-          <div class="card">
-            <img src="assets/img/whats-cookin.png" class="card-img-top" alt="scotland">
-            <div class="card-body">
-              <h4 class="card-title">Pandemic Pastimes</h4>
-              <p>Find recipes and wine pairings based on ingredients on hand. </p>
-            </div>
-            <div id="project-links" class="card-body">
-              <a href="https://ds1826.github.io/Pandemic-Pastime/" target="_blank"><i
-                  class="fas fa-link fa-2x float-left"></a></i><a href="https://github.com/DS1826/Pandemic-Pastime.git"
-                target="_blank"><i class="fab fa-github fa-2x float-right"></i></a>
-            </div>
-          </div>
-        </div>
+
       </div>
+    </div>
     </div>
 
   </main>
@@ -272,12 +324,13 @@
             </a>
             <!--Github-->
             <a class="git-ic" href="https://github.com/DS1826" target="_blank">
-            <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"></i></a>    
+              <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"></i></a>
             <!-- Email -->
             <a class="email-ic" href="mailto: dina.m.1826@gmail.com">
-            <i class="fas fa-envelope fa-lg white-text mr-md-5 mr-3 fa-2x"></i></a>
+              <i class="fas fa-envelope fa-lg white-text mr-md-5 mr-3 fa-2x"></i></a>
             <!-- Phone -->
-            <a class="phone-ic" href="tel:+14076978530"><i class="fas fa-phone fa-lg white text mr-md-5 mr-3 fa-2x"></i></a>
+            <a class="phone-ic" href="tel:+14076978530"><i
+                class="fas fa-phone fa-lg white text mr-md-5 mr-3 fa-2x"></i></a>
             <!--Instagram-->
             <!-- <a class="ins-ic">
               <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
