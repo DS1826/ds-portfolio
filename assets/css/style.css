@@ -71,10 +71,15 @@ a:hover {
     padding-bottom: 40px; */
     position: fixed;
   }
+
+  .hero-wrapper .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+  }
   .hero-image {
     background-image: url("../img/flowers.jpg");
     background-color: #cccccc;
-    height: 800px;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
