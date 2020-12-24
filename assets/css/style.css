@@ -18,6 +18,11 @@ i {
   color: #eee;
 }
 
+a:hover {
+  color: purple;
+  text-decoration: none;
+}
+
 .wrapper {
    
   /* Positioning */
@@ -168,6 +173,13 @@ i {
 
   #portfolio i:hover {
     opacity: 0.5;
+  }
+
+  /* Contact Me */
+
+  .hello {
+    font-weight: bold;
+    color: #2f2439;
   }
 
 /* Sticky Footer */
